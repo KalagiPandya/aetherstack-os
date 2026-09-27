@@ -8,13 +8,13 @@
 </p>
 
 <p align="center">
-  <a href="https://aetherstack-os.vercel.app">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Application-Vercel%20Edge-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Live App" />
+  <a href="https://aetherstack-os.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Application-aetherstack--os.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Live App" />
   </a>
-  <a href="https://aetherstack-os-api.onrender.com">
-    <img src="https://img.shields.io/badge/📡%20Live%20API%20Gateway-Render%20Cloud-46e3b7?style=for-the-badge&logo=render&logoColor=black" alt="Render Backend API" />
+  <a href="https://aetherstack-os.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/📡%20Live%20API%20Gateway-aetherstack--os.onrender.com-46e3b7?style=for-the-badge&logo=render&logoColor=black" alt="Render Backend API" />
   </a>
-  <a href="https://github.com/KalagiPandya/aetherstack-os">
+  <a href="https://github.com/KalagiPandya/aetherstack-os" target="_blank">
     <img src="https://img.shields.io/badge/✨%20Source%20Code-GitHub%20Repo-7928CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
   </a>
 </p>
@@ -62,7 +62,7 @@ Engineered from scratch on the modern **MERN Stack** (MongoDB Atlas + Express 5.
 | Tier / Component | Hosting Platform | URL | Operational Health |
 | :--- | :--- | :--- | :---: |
 | 🖥️ **Frontend Web Application** | **Vercel Edge Network** | [https://aetherstack-os.vercel.app](https://aetherstack-os.vercel.app) | ![Active](https://img.shields.io/badge/Status-🟢%20Live-brightgreen?style=flat-square) |
-| ⚙️ **Backend Core API Gateway** | **Render Web Service** | [https://aetherstack-os-api.onrender.com](https://aetherstack-os-api.onrender.com) | ![Active](https://img.shields.io/badge/Status-🟢%20Operational-brightgreen?style=flat-square) |
+| ⚙️ **Backend Core API Gateway** | **Render Web Service** | [https://aetherstack-os.onrender.com](https://aetherstack-os.onrender.com) | ![Active](https://img.shields.io/badge/Status-🟢%20Operational-brightgreen?style=flat-square) |
 | 🗄️ **Database Cluster** | **MongoDB Atlas Cloud (AWS Multi-AZ)** | `AWS Multi-Region Cloud Cluster` | ![Active](https://img.shields.io/badge/Status-🟢%20Online-brightgreen?style=flat-square) |
 
 ---
@@ -195,7 +195,7 @@ The Express backend exposes a comprehensive RESTful API:
    MONGO_URI = mongodb+srv://<db_username>:<db_password>@<your_cluster_address>.mongodb.net/<database_name>?retryWrites=true&w=majority
    JWT_SECRET = your_super_secret_jwt_key_here
    ```
-6. Click **Create Web Service**. Once deployed, copy your live backend URL (e.g. `https://aetherstack-os-api.onrender.com`).
+6. Click **Create Web Service**. Once deployed, copy your live backend URL (e.g. `https://aetherstack-os.onrender.com`).
 
 ---
 
@@ -211,7 +211,7 @@ The Express backend exposes a comprehensive RESTful API:
    - **Output Directory**: `dist`
 5. In **Environment Variables**, add:
    ```env
-   VITE_API_URL = https://aetherstack-os-api.onrender.com/api
+   VITE_API_URL = https://aetherstack-os.onrender.com/api
    ```
    *(Replace with your actual Render API URL followed by `/api`)*
 6. Click **Deploy**. Vercel will build and launch your live application at `https://aetherstack-os.vercel.app`!
