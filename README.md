@@ -48,16 +48,12 @@
 
 Engineered from scratch on the modern **MERN Stack** (MongoDB Atlas + Express 5.x + React 19 + Node.js), AetherStack OS empowers developers, architects, and hiring managers to inspect distributed system blueprints, run automated 50,000-request telemetry stress benchmarks, execute live REST queries inside an embedded mini-Postman sandbox, and engage in threaded architectural code reviews.
 
-```
-  ┌────────────────────────────────────────────────────────────────────────┐
-  │                      🌌 AETHERSTACK OS CORE MATRIX                     │
-  ├───────────────────┬───────────────────┬────────────────────────────────┤
-  │ 🗺️ Blueprints     │ 📊 Telemetry      │ 🎛️ API Sandbox                 │
-  │ 4-Node Visualizer │ 50k Stress Engine │ Live In-Browser REST Client    │
-  ├───────────────────┴───────────────────┴────────────────────────────────┤
-  │ 💬 Threaded Architectural Code Reviews & Multi-Tenant Creator Matrix  │
-  └────────────────────────────────────────────────────────────────────────┘
-```
+> [!TIP]
+> ### 🌌 AETHERSTACK OS CORE MATRIX
+> - 🗺️ **4-Node System Blueprints**: Visualizing Client, API Gateway, Database Engine, and Cloud Infrastructure.
+> - 📊 **Hardware & Network Telemetry**: Live latency, throughput, and automated 50k-request stress benchmark.
+> - 🎛️ **Embedded API Sandbox**: Test live REST API endpoints with simulated latency and syntax-highlighted JSON.
+> - 💬 **Threaded Technical Discussions**: Real-time code reviews and architectural feedback persisted to MongoDB Atlas.
 
 ---
 
@@ -146,25 +142,12 @@ Every project showcases an interactive visual topology diagram:
 
 AetherStack OS comes pre-seeded with four production-grade system architectures:
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│  🧠 1. NexusVector AI                                                                  │
-│  Distributed Vector Indexing & Semantic Neural Search Gateway                          │
-│  ⚡ Latency: 14ms  │  🚀 Throughput: 34.5k req/s  │  🎯 Cache Hit: 98.2%               │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  ⚡ 2. HyperMesh FinTech                                                               │
-│  Sub-Millisecond Multi-Currency Liquidity & Double-Entry Ledger                        │
-│  ⚡ Latency: 8ms   │  🚀 Throughput: 58.2k req/s  │  🎯 Cache Hit: 99.4%               │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  🌌 3. Chronos Spatial Cloud                                                           │
-│  WebRTC Mesh & Low-Latency Spatial Audio Collaborative Canvas                          │
-│  ⚡ Latency: 18ms  │  🚀 Throughput: 22.0k req/s  │  🎯 Cache Hit: 95.6%               │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  🛡️ 4. AetherDevOps Telemetry                                                         │
-│  Kernel-Level eBPF Telemetry & Automated Canary Deployment Engine                      │
-│  ⚡ Latency: 11ms  │  🚀 Throughput: 48.0k req/s  │  🎯 Cache Hit: 98.7%               │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| Architecture Project | Category | Domain & Specialization | Latency | Throughput | Cache Hit | Complexity |
+| :--- | :---: | :--- | :---: | :---: | :---: | :---: |
+| 🧠 **NexusVector AI** | `AI & ML` | Distributed Vector Indexing & Semantic Neural Search | `14ms` | `34.5k req/s` | `98.2%` | **98/100** |
+| ⚡ **HyperMesh FinTech** | `Full Stack` | Sub-Millisecond Multi-Currency Liquidity & Double-Entry Ledger | `8ms` | `58.2k req/s` | `99.4%` | **97/100** |
+| 🌌 **Chronos Spatial Cloud** | `Frontend` | WebRTC Mesh & Spatial Audio Collaborative Canvas | `18ms` | `22.0k req/s` | `95.6%` | **95/100** |
+| 🛡️ **AetherDevOps Telemetry** | `DevOps` | Kernel-Level eBPF Telemetry & Automated Canary Engine | `11ms` | `48.0k req/s` | `98.7%` | **96/100** |
 
 ---
 
